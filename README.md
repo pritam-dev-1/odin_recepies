@@ -10,14 +10,14 @@ HTML 5 and elements like h1,h2,h3,p,ul,ol,li,br,img,b(bold),u(underline),a(ancho
 
 ## git commands that i use
 
-git status
-git add
-git commit -m "message"
-git log
-git push
+- git status
+- git add
+- git commit -m "message"
+- git log
+- git push
 
 ## Software i use
 
-Linux Terminal
-Vs code
-Chromium browser 
+- Linux Terminal
+- Vs code
+- Chromium browser 
