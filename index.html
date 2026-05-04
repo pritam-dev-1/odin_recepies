@@ -4,21 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Project</title>
+    <style>
+            body{
+            background-color: bisque;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            
+        }
+     .heading{
+        background-color: aquamarine;
+        text-align: center;
+        padding: 30px;
+        margin: 0;
+     }
+     .introduction{
+        width:50%;
+        margin: 40px auto;
+        font-size: 25px;
+     }
+     .menu{
+        background-color: rgb(107, 224, 224);
+        width: 27%;
+        padding: 31px;
+        margin: 63px auto;
+        border-radius: 5px;
+        list-style: none;
+        font-size: 20px;
+    
+
+        
+     }
+     .menu li{
+        
+        width: 95%;
+
+        line-height: 50px;
+        margin: 0 auto;
+     }
+     .menu li a{
+        text-decoration: none;
+        font-weight: bold;   
+     }
+    .foot_note{
+    
+        width: 20%;
+        margin: 71px auto;
+        background-color: rgb(148, 229, 67);
+        border-radius: 5px;
+        padding: 15px 0;
+        text-align: center;
+    }
+    
+    </style>
 </head>
 <body>
-    <h1><u>Odin Recipes List</u></h1>
+    <h1 class="heading">Odin Recipes List</h1>
     <br>
-    <p>Hi, I am Pritam from <b>India</b>  and This is my First web page . I hope you all will like it and will give your valuable feedback. </p>
+    <p class="introduction">Hi, I am Pritam from <b>India</b>  and This is my First web page . I hope you all will like it and will give your valuable feedback. </p>
     
     
-    <ul>
+    <ul class="menu">
     
         <li>Click here to know, how to make : <a href="./recipes/biriyani.html">Biriyani Recipe</a></li>
         <li>Click here to know, how to make: <a href="./recipes/momo.html">Momo Recipie</a></li> 
         <li>Click here to know, how to make : <a href="./recipes/eggroll.html">Eggroll Recipe</a></li>
     </ul>
 
-    <p>Thank you and Regards.</p>
+    <p class="foot_note">Thank you and Regards.</p>
     
 </body>
 </html>
