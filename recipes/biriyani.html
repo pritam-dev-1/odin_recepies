@@ -4,17 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipies</title>
+    <style>
+        body{
+            background-color: rgb(205, 204, 144);
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #heading{
+            border: 2px solid #413e40;
+            text-align: center;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #bff2d0;
+            border-radius: 5px;
+            width:50%;
+        }
+        img{
+            border: 2px solid #413e40;
+            display:block;
+            margin: 20px auto;
+            border-radius: 5px;
+        }
+        .details{
+              border: 2px solid #413e40;
+  width: 55%;
+  margin: 0 auto;
+  background-color: #d6b583;
+  padding: 24px;
+  border-radius: 5px;
+  font-size: 18px;
+        }
+    #main-recipe{
+        border: 2px solid #413e40;
+        width: 60%;
+        margin: 35px auto;
+        background-color: #ade7e7;
+        border-radius: 5px;
+    }
+    #second-heading{
+         
+        width: 37%;
+        margin: 23px auto;
+    }
+    </style>
 </head>
 <body>
 
-    <h1>Biriyani Recipe</h1>
+    <h1 id="heading">Biriyani Recipe</h1>
     <img src="https://t4.ftcdn.net/jpg/07/46/34/33/360_F_746343390_cz4z2B0qgHcvhzqwyvvXQj7bsS0LxlpG.jpg" alt="biriyani image"> 
     <br> <br>
-    <p>Making a great chicken biryani is all about the layers and the marination. While there are many regional styles, <br>this classic Pakki Dum Biryani method—where the meat and rice are partially cooked before being steamed together <br> is a foolproof way to get restaurant-quality results at home. </p>
+    <p class="details">Making a great chicken biryani is all about the layers and the marination. While there are many regional styles, <br>this classic Pakki Dum Biryani method—where the meat and rice are partially cooked before being steamed together <br> is a foolproof way to get restaurant-quality results at home. </p>
     <br> 
 
 <!--Steps of making Chicken Biriyani-->  
-    <h2><u>Steps of making Chicken Biriyani</u></h2>
+<div id="main-recipe">
+    <h2 id="second-heading"><u>Steps of making Chicken Biriyani</u></h2>
     <br>
 
  <!--Step-by-Step Instructions-->   
@@ -44,6 +87,7 @@
         <li><h3>Now Rest and Serve</h3></li>
         </ul> 
         <br>
+</div>
         
     <a href="../index.html">Back to Main page</a>
 </html>
