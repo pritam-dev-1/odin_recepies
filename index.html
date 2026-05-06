@@ -6,30 +6,38 @@
     <title>Recipe Project</title>
     <style>
             body{
-            background-color: bisque;
+            background-color: #ecdac5;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             
         }
      .heading{
-        background-color: aquamarine;
-        text-align: center;
-        padding: 30px;
-        margin: 0;
+        background-color: #aaeed7;
+  text-align: center;
+  padding: 20px;
+  margin: 15px auto;
+  width: 28%;
+  border: 2px solid #5b5d5f;
+  border-radius: 5px;
      }
      .introduction{
-        width:50%;
-        margin: 40px auto;
-        font-size: 25px;
+        width: 50%;
+  margin: 40px auto;
+  font-size: 25px;
+  border: 2px solid #413f43;
+  border-radius: 5px;
+  background-color: #da90c4;
+  padding: 15px;
      }
      .menu{
-        background-color: rgb(107, 224, 224);
-        width: 27%;
-        padding: 31px;
-        margin: 63px auto;
-        border-radius: 5px;
-        list-style: none;
-        font-size: 20px;
+       background-color: rgb(151, 234, 175);
+  width: 27%;
+  padding: 20px;
+  margin: 63px auto;
+  border-radius: 5px;
+  list-style: none;
+  font-size: 20px;
+  border: 2px solid #413f43;
     
 
         
@@ -43,16 +51,26 @@
      }
      .menu li a{
         text-decoration: none;
-        font-weight: bold;   
+        font-weight: bold;
+        color: #2c2b2d;   
+     }
+     .menu li a:hover{
+      text-decoration: underline;
+      transition: 0.3s;
+      color: rgb(3, 3, 3);
+     }
+     .menu p{
+      text-decoration: underline;
      }
     .foot_note{
     
         width: 20%;
         margin: 71px auto;
-        background-color: rgb(148, 229, 67);
+        background-color: rgb(196, 190, 218);
         border-radius: 5px;
         padding: 15px 0;
         text-align: center;
+        border: 2px solid #413f43;
     }
     
     </style>
@@ -64,10 +82,10 @@
     
     
     <ul class="menu">
-    
-        <li>Click here to know, how to make : <a href="./recipes/biriyani.html">Biriyani Recipe</a></li>
-        <li>Click here to know, how to make: <a href="./recipes/momo.html">Momo Recipie</a></li> 
-        <li>Click here to know, how to make : <a href="./recipes/eggroll.html">Eggroll Recipe</a></li>
+    <p>Click below to get your favourite recipe</p>
+        <li><a href="./recipes/biriyani.html">Biriyani Recipe</a></li>
+        <li><a href="./recipes/momo.html">Momo Recipie</a></li> 
+        <li><a href="./recipes/eggroll.html">Eggroll Recipe</a></li>
     </ul>
 
     <p class="foot_note">Thank you and Regards.</p>
